@@ -1,6 +1,3 @@
-# minimal-static-wine-64
-Statically linked 'wine64' configured with nothing
-
 #!/bin/bash
 
 ./configure LDFLAGS=-s --prefix=~/foobar \

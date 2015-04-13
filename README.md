@@ -1,8 +1,8 @@
 # minimal-static-wine-64
 Statically linked 'wine64' configured with nothing
 
+```bash
 #!/bin/bash
-
 ./configure LDFLAGS=-s --prefix=~/foobar \
              --without-alsa \
              --without-capi \
@@ -44,4 +44,3 @@ Statically linked 'wine64' configured with nothing
              --without-xslt \
              --without-xxf86vm \
              --without-zlib  \
-             --without-x;

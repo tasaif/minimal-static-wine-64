@@ -1,0 +1,8 @@
+; File generated automatically from ./dlls/newdev/newdev.spec; do not edit!
+
+LIBRARY newdev.dll
+
+EXPORTS
+  InstallNewDevice @1
+  UpdateDriverForPlugAndPlayDevicesA @2
+  UpdateDriverForPlugAndPlayDevicesW @3

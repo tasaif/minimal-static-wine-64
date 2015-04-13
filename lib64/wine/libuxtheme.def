@@ -1,0 +1,68 @@
+; File generated automatically from ./dlls/uxtheme/uxtheme.spec; do not edit!
+
+LIBRARY uxtheme.dll
+
+EXPORTS
+  QueryThemeServices @1 NONAME
+  OpenThemeFile @2 NONAME
+  CloseThemeFile @3 NONAME
+  ApplyTheme @4 NONAME
+  GetThemeDefaults @7 NONAME
+  EnumThemes @8 NONAME
+  EnumThemeColors @9 NONAME
+  EnumThemeSizes @10 NONAME
+  ParseThemeIniFile @11 NONAME
+  CheckThemeSignature @29 NONAME
+  OpenThemeDataEx @61
+  BeginBufferedPaint @5
+  BufferedPaintInit @6
+  BufferedPaintUnInit @12
+  CloseThemeData @37
+  DrawThemeBackground @38
+  DrawThemeBackgroundEx @39
+  DrawThemeEdge @40
+  DrawThemeIcon @41
+  DrawThemeParentBackground @42
+  DrawThemeText @47
+  EnableThemeDialogTexture @49
+  EnableTheming @50
+  EndBufferedPaint @51
+  GetCurrentThemeName @52
+  GetThemeAppProperties @53
+  GetThemeBackgroundContentRect @54
+  GetThemeBackgroundExtent @55
+  GetThemeBackgroundRegion @56
+  GetThemeBool @57
+  GetThemeColor @58
+  GetThemeDocumentationProperty @59
+  GetThemeEnumValue @64
+  GetThemeFilename @65
+  GetThemeFont @66
+  GetThemeInt @67
+  GetThemeIntList @68
+  GetThemeMargins @69
+  GetThemeMetric @70
+  GetThemePartSize @71
+  GetThemePosition @72
+  GetThemePropertyOrigin @73
+  GetThemeRect @74
+  GetThemeString @75
+  GetThemeSysBool @76
+  GetThemeSysColor @77
+  GetThemeSysColorBrush @78
+  GetThemeSysFont @79
+  GetThemeSysInt @80
+  GetThemeSysSize @81
+  GetThemeSysString @82
+  GetThemeTextExtent @83
+  GetThemeTextMetrics @84
+  GetWindowTheme @85
+  HitTestThemeBackground @86
+  IsAppThemed @87
+  IsThemeActive @88
+  IsThemeBackgroundPartiallyTransparent @89
+  IsThemeDialogTextureEnabled @90
+  IsThemePartDefined @91
+  OpenThemeData @92
+  SetThemeAppProperties @93
+  SetWindowTheme @94

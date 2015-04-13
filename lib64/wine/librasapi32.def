@@ -1,0 +1,59 @@
+; File generated automatically from ./dlls/rasapi32/rasapi32.spec; do not edit!
+
+LIBRARY rasapi32.dll
+
+EXPORTS
+  RasConnectionNotificationA @540
+  RasConnectionNotificationW @541
+  RasCreatePhonebookEntryA @542
+  RasCreatePhonebookEntryW @543
+  RasDeleteEntryA @544
+  RasDeleteEntryW @545
+  RasDeleteSubEntryA @546
+  RasDeleteSubEntryW @547
+  RasDialA @548
+  RasDialW @549
+  RasEditPhonebookEntryA @551
+  RasEditPhonebookEntryW @552
+  RasEnumAutodialAddressesA @553
+  RasEnumAutodialAddressesW @554
+  RasEnumConnectionsA @555
+  RasEnumConnectionsW @556
+  RasEnumDevicesA @558
+  RasEnumDevicesW @559
+  RasEnumEntriesA @570
+  RasEnumEntriesW @571
+  RasGetAutodialAddressA @573
+  RasGetAutodialAddressW @574
+  RasGetAutodialEnableA @575
+  RasGetAutodialEnableW @576
+  RasGetAutodialParamA @577
+  RasGetAutodialParamW @578
+  RasGetConnectStatusA @580
+  RasGetConnectStatusW @581
+  RasGetEntryDialParamsA @587
+  RasGetEntryDialParamsW @588
+  RasGetEntryPropertiesA @589
+  RasGetEntryPropertiesW @590
+  RasGetErrorStringA @591
+  RasGetErrorStringW @592
+  RasGetProjectionInfoA @595
+  RasGetProjectionInfoW @596
+  RasHangUpA @601
+  RasHangUpW @602
+  RasRenameEntryA @604
+  RasRenameEntryW @605
+  RasSetAutodialAddressA @606
+  RasSetAutodialAddressW @607
+  RasSetAutodialEnableA @608
+  RasSetAutodialEnableW @609
+  RasSetAutodialParamA @610
+  RasSetAutodialParamW @611
+  RasSetEntryDialParamsA @614
+  RasSetEntryDialParamsW @615
+  RasSetEntryPropertiesA @616
+  RasSetEntryPropertiesW @617
+  RasSetSubEntryPropertiesA @619
+  RasSetSubEntryPropertiesW @620
+  RasValidateEntryNameA @621
+  RasValidateEntryNameW @622

@@ -1,0 +1,12 @@
+; File generated automatically from ./dlls/serialui/serialui.spec; do not edit!
+
+LIBRARY serialui.dll
+
+EXPORTS
+  EnumPropPages @1
+  drvCommConfigDialogW @2
+  drvCommConfigDialogA @3
+  drvSetDefaultCommConfigW @4
+  drvSetDefaultCommConfigA @5
+  drvGetDefaultCommConfigW @6
+  drvGetDefaultCommConfigA @7

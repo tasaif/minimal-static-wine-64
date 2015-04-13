@@ -1,0 +1,5 @@
+; File generated automatically from ./dlls/webservices/webservices.spec; do not edit!
+
+LIBRARY webservices.dll
+
+EXPORTS

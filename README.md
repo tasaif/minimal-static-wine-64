@@ -3,7 +3,7 @@ Statically linked 'wine64' configured with nothing
 
 ```bash
 #!/bin/bash
-./configure LDFLAGS=-s --prefix=~/foobar \
+./configure LDFLAGS=-s --prefix=~/foobar --enable-win64 \
              --without-alsa \
              --without-capi \
              --without-cms \
